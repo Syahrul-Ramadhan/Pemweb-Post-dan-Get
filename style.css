@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("DiodrumCyrillic-Bold.eot");
+  src: local("Diodrum Cyrillic Bold"), local("DiodrumCyrillic-Bold"),
+    url("DiodrumCyrillic-Bold.eot?#iefix") format("embedded-opentype"),
+    url("DiodrumCyrillic-Bold.woff2") format("woff2"),
+    url("DiodrumCyrillic-Bold.woff") format("woff"),
+    url("DiodrumCyrillic-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("DiodrumCyrillic-Semibold.eot");
+  src: local("Diodrum Cyrillic Semibold"), local("DiodrumCyrillic-Semibold"),
+    url("DiodrumCyrillic-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("DiodrumCyrillic-Semibold.woff2") format("woff2"),
+    url("DiodrumCyrillic-Semibold.woff") format("woff"),
+    url("DiodrumCyrillic-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Diodrum Cyrillic";
+  src: url("DiodrumCyrillic-Medium.eot");
+  src: local("Diodrum Cyrillic Medium"), local("DiodrumCyrillic-Medium"),
+    url("DiodrumCyrillic-Medium.eot?#iefix") format("embedded-opentype"),
+    url("DiodrumCyrillic-Medium.woff2") format("woff2"),
+    url("DiodrumCyrillic-Medium.woff") format("woff"),
+    url("DiodrumCyrillic-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5b128;
+  padding: 32px 40px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  box-shadow: 8px 8px 0 #000;
+  border: 2px solid #000;
+}
+
+h2 {
+  font-family: "Diodrum Cyrillic", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: "Diodrum Cyrillic", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 100%;
+}
+
+.getBtn,
+.postBtn {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Diodrum Cyrillic", sans-serif;
+  font-weight: 600;
+  padding: 12px 32px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0 #000;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.getBtn:hover,
+.postBtn:hover {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+  -webkit-transform: translate(2px, 2px);
+  -moz-transform: translate(2px, 2px);
+  -ms-transform: translate(2px, 2px);
+  -o-transform: translate(2px, 2px);
+}
+
+.getBtn {
+  background-color: #205781;
+  color: white;
+  border: 1px solid #000;
+}
+
+.postBtn {
+  background-color: white;
+  border: 1px solid #000;
+}
